@@ -28,11 +28,11 @@ public class ArrayListDemo2 {
         }
         System.out.println(number1);*/
 
-        number1.addAll(number2); // should be same data type
+        number1.addAll(number2); // should be same data type in both ArrayList
         System.out.println(number1);
 
 
-        // binary searc h in arrayList
+        // binary search in arrayList
         int i = Collections.binarySearch(number1,20);
         System.out.println(i);
 
